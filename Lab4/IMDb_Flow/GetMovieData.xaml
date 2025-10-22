@@ -1,0 +1,411 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="GetMovieData" this:GetMovieData.In_MovieCount="0" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:this="clr-namespace:" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_MovieCount" Type="InArgument(x:Int32)" />
+    <x:Property Name="AllMoviesData" Type="OutArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>GetMovieData_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="GetMovieData" sap:VirtualizedContainerService.HintSize="806.8000000000001,1195.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="MovieRating" />
+      <Variable x:TypeArguments="x:Int32" Name="index">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:Int32" Value="1" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="580.8,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="IMDB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsIncognito="True" ScopeGuid="50a92328-def9-49bb-8205-4411f3c2e1f8" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="580.8,1275.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:Int32" Default="1" Name="counter" />
+                    <Variable x:TypeArguments="x:Boolean" Name="cookiesExist" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:InterruptibleWhile Condition="[index &lt;= In_MovieCount]" CurrentIndex="[index_1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="547.2,1213.6" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                    <ui:InterruptibleWhile.Body>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="545.6,1090.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="film" />
+                          <Variable x:TypeArguments="x:String" Name="FilmName" />
+                          <Variable x:TypeArguments="x:String" Name="FilmDate" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <Sequence sap:VirtualizedContainerService.HintSize="512,1030.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence.Variables>
+                            <Variable x:TypeArguments="x:String" Name="TextToWrite">
+                              <Variable.Default>
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </Variable.Default>
+                            </Variable>
+                            <Variable x:TypeArguments="x:String" Name="FilmDateVar">
+                              <Variable.Default>
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </Variable.Default>
+                            </Variable>
+                            <Variable x:TypeArguments="x:String" Name="FilmRatingVar">
+                              <Variable.Default>
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </Variable.Default>
+                            </Variable>
+                          </Sequence.Variables>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478.4,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;Loop index = &quot; + index.ToString]" />
+                          <uix:NGetText DisplayName="Get Movie Name" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[FilmName]" Version="V5">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="65ff6c23-64f1-4d26-a1df-ad722c5f6331" CvType="AnyWordGroup" DesignTimeRectangle="305, 810, 278, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='ipc-title__text ipc-title__text--reduced' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="05400488-bc86-4f81-b642-7010f1fc1a02" InformativeScreenshot="8e73547f257ca2b1baa942fc330112b4.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                          <uix:NGetText DisplayName="Get Movie Date" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[FilmDate]" Version="V5">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="65ff6c23-64f1-4d26-a1df-ad722c5f6331" ContentHash="zP8z6oXReEahAtMtU-FxRQ" CvType="AnyWordGroup" DesignTimeRectangle="305, 843, 41, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='SPAN' type='' class='sc-caa65599-7 eeMIpC cli-title-metadata-item' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="cb2b889c-c255-4bd0-bad5-cf3093abb53e" InformativeScreenshot="b1eaaa44e38c036354c159f225207cfd.png" Reference="OWTW9G0zqU-prfeslFDhzg/qny9ISY2fEW0qxt9ucoSHA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                          <uix:NGetText DisplayName="Get Movie Rate" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[MovieRating]" Version="V5">
+                            <uix:NGetText.Target>
+                              <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="65ff6c23-64f1-4d26-a1df-ad722c5f6331" ContentHash="tODrDc-N70GzGNJKiWNVrg" CvType="AnyWordGroup" DesignTimeRectangle="323, 876, 25, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ipc-rating-star--rating' parentid='__next' tag='SPAN' /&gt;" Guid="79ab90dd-c3e6-4b25-aed6-a27009af380e" InformativeScreenshot="8e2140738d3ec125bb4134b6182572e3.png" Reference="OWTW9G0zqU-prfeslFDhzg/XOOZBUyx1kGYlENA3LBhaQ" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NGetText.Target>
+                          </uix:NGetText>
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                            <ui:CommentOut.Body>
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                                  <ui:MultipleAssign.AssignOperations>
+                                    <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                                        <ui:AssignOperation.To>
+                                          <OutArgument x:TypeArguments="x:String">[TextToWrite]</OutArgument>
+                                        </ui:AssignOperation.To>
+                                        <ui:AssignOperation.Value>
+                                          <InArgument x:TypeArguments="x:String">[FilmName]</InArgument>
+                                        </ui:AssignOperation.Value>
+                                      </ui:AssignOperation>
+                                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                                        <ui:AssignOperation.To>
+                                          <OutArgument x:TypeArguments="x:String">[FilmDateVar]</OutArgument>
+                                        </ui:AssignOperation.To>
+                                        <ui:AssignOperation.Value>
+                                          <InArgument x:TypeArguments="x:String">[FilmDate]</InArgument>
+                                        </ui:AssignOperation.Value>
+                                      </ui:AssignOperation>
+                                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                                        <ui:AssignOperation.To>
+                                          <OutArgument x:TypeArguments="x:String">[FilmRatingVar]</OutArgument>
+                                        </ui:AssignOperation.To>
+                                        <ui:AssignOperation.Value>
+                                          <InArgument x:TypeArguments="x:String">[MovieRating]</InArgument>
+                                        </ui:AssignOperation.Value>
+                                      </ui:AssignOperation>
+                                    </scg:List>
+                                  </ui:MultipleAssign.AssignOperations>
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </ui:MultipleAssign>
+                              </Sequence>
+                            </ui:CommentOut.Body>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </ui:CommentOut>
+                          <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                            <ui:MultipleAssign.AssignOperations>
+                              <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:String">[film]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String">[FilmName+" || "+FilmDate]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                                <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                                  <ui:AssignOperation.To>
+                                    <OutArgument x:TypeArguments="x:String">[AllMoviesData]</OutArgument>
+                                  </ui:AssignOperation.To>
+                                  <ui:AssignOperation.Value>
+                                    <InArgument x:TypeArguments="x:String" xml:space="preserve">[AllMoviesData+Environment.NewLine+
+film+Environment.NewLine]</InArgument>
+                                  </ui:AssignOperation.Value>
+                                </ui:AssignOperation>
+                              </scg:List>
+                            </ui:MultipleAssign.AssignOperations>
+                          </ui:MultipleAssign>
+                          <Assign sap:VirtualizedContainerService.HintSize="478.4,165.6" sap2010:WorkflowViewState.IdRef="Assign_3">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Int32">[index+1]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </Sequence>
+                    </ui:InterruptibleWhile.Body>
+                  </ui:InterruptibleWhile>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="EBkUYH411UiOHlM3VJsYlw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAdVJREFUWEftlDssQ1EYx69q7+2tPt2iJjERLJV4LMSgBq9OWBjaREKICBI0MZSQVEMIDQORWiRKjBUbJWHvZMUuwfy53znpfbSJ3EgwOMMv53/O7fm+X865vdzHnQ/+EibABJgAE2ACBQLHyy4ItPAwGLDCzYFEMhLqF+HlslyZI9mUVzfvauUhErbDW6YCJodsZC0+7dDVz6dAIDpmB47jwCeZ4DzuIRkRBQ5uDyVljtwn1bnHUaTkkzU3NDdYSA7L4vk9tBgWQGJTDt1cK5De8YC5mOatWacigCeXirkJ77cVul6IIQHeQgvjkeJJYEa0AleJUrBZ6SloBQRe/f3KuF3XCzEkUFNVTEarXKyu2qwU/EqgqZ4KDHeLEOwQSO5rF3S9EEMC/lozVHpNJPe00WKIkRMIB0UC5l55b34/QwKNskCbnycZ324ckXyB3PX8iAC+TJg3Z9QXUSuwNEr3Idtz6hWMyFcw0Gkl+dtXgAKrE7TxxQZdQ7QCOUwmDu6OJOUELGb12WKoRNcLKRB4OJZgL+KEZNQFjxdlJKfW3ZA99ZL8lC4nI/Kcps9z7MvgfqxzFneTtYz8MUssOGF33gmv1wb+hr8NE2ACTIAJ/HcBH3wCnyEaX70T9tEAAAAASUVORK5CYII=" InformativeScreenshot="0d65ee410b2e8d59aceff29c42996719.jpg" Reference="OWTW9G0zqU-prfeslFDhzg/4IBZ64kt-02p7VvFs_dLtw" Selector="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" Url="https://www.imdb.com/chart/top/" Version="V2" />
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:CommentOut>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="IMDB" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="580.8,1469.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="False" ScopeGuid="50a92328-def9-49bb-8205-4411f3c2e1f8" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="547.2,1252.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="513.6,117.6" sap2010:WorkflowViewState.IdRef="MessageBox_5" Text="[&quot;Start collecting Data&quot;]" />
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="513.6,1073.6" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_2">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,950.4" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="Movie" />
+                    <Variable x:TypeArguments="x:String" Name="MovieName" />
+                    <Variable x:TypeArguments="x:String" Name="MovieDate" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DisplayName="Get Film Name" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[MovieName]" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="dfe8566f-83b2-49c7-9f5a-7e80d9b8293a" CvType="AnyWordGroup" DesignTimeRectangle="305, 810, 278, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='ipc-title__text ipc-title__text--reduced' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="fd238c50-9fe0-426a-aa4b-5de0b5b291ec" InformativeScreenshot="9312e52bcec56fcde0b2d446be9abc22.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb Top 250 movies' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="205, 787, 90, 134" FullSelectorArgument="&lt;webctrl class='ipc-lockup-overlay__screen' parentid='__next' tag='DIV' /&gt;" Guid="02a5313a-346f-4b2a-9a9a-805620e2df45" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <uix:NGetText DisplayName="Get Film Date" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_9" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[MovieDate]" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="dfe8566f-83b2-49c7-9f5a-7e80d9b8293a" CvType="AnyWordGroup" DesignTimeRectangle="305, 843, 41, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='__next' tag='SPAN' type='' class='sc-caa65599-7 eeMIpC cli-title-metadata-item' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="cbb555d2-8ab0-4613-926c-25445a7c652f" InformativeScreenshot="8e5a7de8bf3ea11f5d1fab79e45f6c0f.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb Top 250 movies' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target DesignTimeRectangle="205, 787, 90, 134" FullSelectorArgument="&lt;webctrl class='ipc-lockup-overlay__screen' parentid='__next' tag='DIV' /&gt;" Guid="18b21814-51fb-4699-89e3-00556446b1c7" SearchSteps="Selector" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <uix:NGetText DisplayName="Get Text '9.3'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="478.4,142.4" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="50a92328-def9-49bb-8205-4411f3c2e1f8" TextString="[MovieRating]" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="imdb.com/chart/top" CVScreenId="b8de3c21-af2b-4e9f-a16c-fed1faff8526" ContentHash="ZAxesQHLVEuPL39BbCXsJg" CvType="AnyWordGroup" DesignTimeRectangle="323, 876, 25, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ipc-rating-star--rating' parentid='__next' tag='SPAN' /&gt;" Guid="ed431df5-beba-4bde-9513-2eb00c6ed505" InformativeScreenshot="8e2140738d3ec125bb4134b6182572e3.png" Reference="OWTW9G0zqU-prfeslFDhzg/hbBmHnyft02MBtRUNQWWPA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                    <ui:MultipleAssign.AssignOperations>
+                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[Movie]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String">[MovieName+" || "+MovieDate +"||" + MovieRating]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:String">[AllMoviesData]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:String" xml:space="preserve">[AllMoviesData+Environment.NewLine+
+Movie+Environment.NewLine]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                      </scg:List>
+                    </ui:MultipleAssign.AssignOperations>
+                  </ui:MultipleAssign>
+                  <Assign sap:VirtualizedContainerService.HintSize="478.4,174.4" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:Int32">[index]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:Int32">[index+1]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="478.4,108.8" sap2010:WorkflowViewState.IdRef="MessageBox_6" Text="[&quot;End collecting Data&quot;]" />
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="index&lt;=In_MovieCount" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1048" BrowserType="Edge" ContentHash="9vRxmMYCzUWbgjQC0bi7Iw" IconBase64="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" InformativeScreenshot="1594226d44e99980db9d31eab0e95bf3.jpg" Selector="&lt;html app='msedge.exe' title='IMDb top 250 movies' /&gt;" Url="https://www.imdb.com/chart/top/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

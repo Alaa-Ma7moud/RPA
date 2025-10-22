@@ -1,0 +1,1859 @@
+﻿
+1
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815991
+            Process Vendor Invoice
+            WI3
+            Open
+            2019-10-21
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816040
+            Verify Account Position
+            WI1
+            Open
+            2024-12-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816037
+            Verify Account Position
+            WI1
+            Open
+            2019-02-18
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816006
+            Research Client Check Copy
+            WI2
+            Open
+            2021-05-14
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816044
+            Verify Account Position
+            WI1
+            Open
+            2018-01-30
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816039
+            Verify Account Position
+            WI1
+            Open
+            2018-12-08
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816054
+            Verify Account Position
+            WI1
+            Open
+            2023-06-17
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816028
+            Research Client Check Copy
+            WI2
+            Open
+            2023-04-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815975
+            Calculate Client Security Hash
+            WI5
+            Open
+            2020-09-27
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816051
+            Verify Account Position
+            WI1
+            Open
+            2023-06-14
+        
+            
+    
+        
+            
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+2
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815986
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2019-06-02
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816060
+            Verify Account Position
+            WI1
+            Open
+            2022-08-02
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816004
+            Process Vendor Invoice
+            WI3
+            Open
+            2020-09-01
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816001
+            Process Vendor Invoice
+            WI3
+            Open
+            2019-02-15
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816030
+            Research Client Check Copy
+            WI2
+            Open
+            2024-08-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816015
+            Research Client Check Copy
+            WI2
+            Open
+            2020-12-27
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816016
+            Research Client Check Copy
+            WI2
+            Open
+            2025-04-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816025
+            Research Client Check Copy
+            WI2
+            Open
+            2025-07-15
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816042
+            Verify Account Position
+            WI1
+            Open
+            2019-11-03
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816059
+            Verify Account Position
+            WI1
+            Open
+            2022-04-02
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+3
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816027
+            Research Client Check Copy
+            WI2
+            Open
+            2021-01-30
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816023
+            Research Client Check Copy
+            WI2
+            Open
+            2018-07-27
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816050
+            Verify Account Position
+            WI1
+            Open
+            2020-03-01
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816033
+            Verify Account Position
+            WI1
+            Open
+            2025-06-24
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815968
+            Calculate Client Security Hash
+            WI5
+            Open
+            2018-05-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816024
+            Research Client Check Copy
+            WI2
+            Open
+            2019-09-24
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816038
+            Verify Account Position
+            WI1
+            Open
+            2021-11-08
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816046
+            Verify Account Position
+            WI1
+            Open
+            2021-07-17
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816034
+            Verify Account Position
+            WI1
+            Open
+            2025-09-10
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815977
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2025-07-07
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+4
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815980
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2023-02-19
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815985
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2018-09-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816013
+            Research Client Check Copy
+            WI2
+            Open
+            2022-11-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816022
+            Research Client Check Copy
+            WI2
+            Open
+            2021-07-21
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816011
+            Research Client Check Copy
+            WI2
+            Open
+            2017-11-23
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815970
+            Calculate Client Security Hash
+            WI5
+            Open
+            2021-08-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816047
+            Verify Account Position
+            WI1
+            Open
+            2021-12-09
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816012
+            Research Client Check Copy
+            WI2
+            Open
+            2024-11-17
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815978
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2018-08-16
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816053
+            Verify Account Position
+            WI1
+            Open
+            2019-12-05
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+5
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816035
+            Verify Account Position
+            WI1
+            Open
+            2018-02-03
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815969
+            Calculate Client Security Hash
+            WI5
+            Open
+            2019-09-25
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816007
+            Research Client Check Copy
+            WI2
+            Open
+            2019-05-15
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815981
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2020-12-18
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815993
+            Process Vendor Invoice
+            WI3
+            Open
+            2021-08-22
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816014
+            Research Client Check Copy
+            WI2
+            Open
+            2020-01-31
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816017
+            Research Client Check Copy
+            WI2
+            Open
+            2025-09-05
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816009
+            Research Client Check Copy
+            WI2
+            Open
+            2020-03-20
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816018
+            Research Client Check Copy
+            WI2
+            Open
+            2023-12-01
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815984
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2019-05-04
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+6
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816020
+            Research Client Check Copy
+            WI2
+            Open
+            2024-05-09
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815983
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2019-11-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816026
+            Research Client Check Copy
+            WI2
+            Open
+            2021-11-07
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815967
+            Calculate Client Security Hash
+            WI5
+            Open
+            2023-12-18
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816052
+            Verify Account Position
+            WI1
+            Open
+            2023-11-06
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815987
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2021-07-19
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816010
+            Research Client Check Copy
+            WI2
+            Open
+            2025-05-28
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816057
+            Verify Account Position
+            WI1
+            Open
+            2023-01-24
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815971
+            Calculate Client Security Hash
+            WI5
+            Open
+            2020-07-31
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815992
+            Process Vendor Invoice
+            WI3
+            Open
+            2020-12-09
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+7
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815995
+            Process Vendor Invoice
+            WI3
+            Open
+            2020-09-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816002
+            Process Vendor Invoice
+            WI3
+            Open
+            2024-05-12
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816055
+            Verify Account Position
+            WI1
+            Open
+            2023-12-21
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815998
+            Process Vendor Invoice
+            WI3
+            Open
+            2025-07-03
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816049
+            Verify Account Position
+            WI1
+            Open
+            2021-02-27
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816003
+            Process Vendor Invoice
+            WI3
+            Open
+            2022-07-05
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816021
+            Research Client Check Copy
+            WI2
+            Open
+            2025-03-13
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815996
+            Process Vendor Invoice
+            WI3
+            Open
+            2024-08-02
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816000
+            Process Vendor Invoice
+            WI3
+            Open
+            2022-11-28
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815966
+            Calculate Client Security Hash
+            WI5
+            Open
+            2019-06-18
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+8
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815982
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2023-12-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815979
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2017-06-30
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815976
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2022-08-03
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815973
+            Calculate Client Security Hash
+            WI5
+            Open
+            2020-03-09
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816036
+            Verify Account Position
+            WI1
+            Open
+            2024-08-08
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816008
+            Research Client Check Copy
+            WI2
+            Open
+            2022-09-02
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816045
+            Verify Account Position
+            WI1
+            Open
+            2022-12-16
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815994
+            Process Vendor Invoice
+            WI3
+            Open
+            2017-07-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815997
+            Process Vendor Invoice
+            WI3
+            Open
+            2019-04-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816043
+            Verify Account Position
+            WI1
+            Open
+            2017-12-01
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+9
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816019
+            Research Client Check Copy
+            WI2
+            Open
+            2022-01-24
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816005
+            Research Client Check Copy
+            WI2
+            Open
+            2019-06-15
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815988
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2024-12-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815989
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2025-07-26
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816041
+            Verify Account Position
+            WI1
+            Open
+            2020-10-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816029
+            Research Client Check Copy
+            WI2
+            Open
+            2021-06-16
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816048
+            Verify Account Position
+            WI1
+            Open
+            2021-11-14
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816031
+            Research Client Check Copy
+            WI2
+            Open
+            2021-07-25
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816058
+            Verify Account Position
+            WI1
+            Open
+            2024-01-11
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815990
+            Generate Yearly Report for Vendor
+            WI4
+            Open
+            2020-05-08
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                                
+                    >
+                
+                    
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
+
+10
+Search Results
+    
+                    Please find below your work items. They need to be completed in the order specified by your manager.
+            
+    
+        
+            Actions
+            WIID
+            Description
+            Type
+            Status
+            Date
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815974
+            Calculate Client Security Hash
+            WI5
+            Open
+            2019-01-05
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815999
+            Process Vendor Invoice
+            WI3
+            Open
+            2024-11-25
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816032
+            Research Client Check Copy
+            WI2
+            Open
+            2019-08-16
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107816056
+            Verify Account Position
+            WI1
+            Open
+            2019-04-19
+        
+                
+            
+                
+                    
+                
+                
+                    
+                
+            
+            107815972
+            Calculate Client Security Hash
+            WI5
+            Open
+            2024-05-16
+        
+            
+    
+        
+            
+                            
+                    <
+                
+                                                                        1
+                                                                                2
+                                                                                3
+                                                                                4
+                                                                                5
+                                                                                6
+                                                                                7
+                                                                                8
+                                                                                9
+                                                                                10
+                                                        
+    
+
+
+            
+    
+        
+            
+            Copyright © new Date().getFullYear()>2010&&document.write(new Date().getFullYear());2025 ACME Systems
