@@ -1,5 +1,5 @@
 {
-  "Name": "Lab4",
+  "Name": "MovieProcess",
   "ProjectType": "Process",
   "Description": "Blank Process",
   "MainFile": "Main.xaml"
