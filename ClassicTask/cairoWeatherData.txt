@@ -1,7 +1,0 @@
-Country: cairo
-
-Temperature: 27
-
-Humidity: 39%
-
-Status: 14 km/h
